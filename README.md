@@ -1,2 +1,4 @@
-# kubetoy-channel
+# KubeToy Channel Resources
+
+
 MCM Application Channel
