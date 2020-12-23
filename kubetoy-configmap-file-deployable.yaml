@@ -1,0 +1,17 @@
+---
+apiVersion: app.ibm.com/v1alpha1
+kind: Deployable
+metadata:
+  name: kubetoy-channel-cm-file
+  namespace: kubetoy-channel-namespace
+  labels:
+    app: kubetoy-app
+spec:
+  template:
+    spec: {}
+    kind: ConfigMap
+    apiVersion: v1
+    metadata:
+      name: kubetoy-configmap-files
+    data:
+      config.json: '{ "default": "123" }'
